@@ -12,8 +12,8 @@ public class comparingTwoFiles {
         firstName = input.nextLine();
         System.out.print("");
         secondName = input.nextLine();
-        Scanner input1 = new Scanner(new File(firstName));//read first file //i have to input first file location.
-        Scanner input2 = new Scanner(new File(secondName));//read second file // i have to input second file location.
+        Scanner input1 = new Scanner(new File(firstName)); //I have to input first file location.
+        Scanner input2 = new Scanner(new File(secondName)); // I have to input second file location.
 
         while(input1.hasNextLine() && input2.hasNextLine()){
             first = input1.nextLine();
